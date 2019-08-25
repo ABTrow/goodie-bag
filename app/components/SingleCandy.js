@@ -5,11 +5,13 @@ const SingleCandy = (props) => {
   console.log(props);
 
   return (
-    <div>
+    <div className="candy-box">
       <img src={candy.imageUrl} />
       <h3>{candy.name}</h3>
       <p>{candy.description}</p>
       <footer>Quantity: {candy.quantity}</footer>
+      <br />
+      <br />
     </div>
   )
 }

@@ -35,3 +35,46 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+
+.candy-box {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: peachpuff;
+  text-align: center;
+}
+
+#landing-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: absolute;
+  text-align: center;
+  color: papayawhip;
+  width: 100%;
+  height: 100%;
+  text-shadow: 1px 1px 4px black;
+}
+
+.landing-section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+}
+
+#landing-image {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+a:visited {
+  color: papayawhip;
+}

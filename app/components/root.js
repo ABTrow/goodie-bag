@@ -1,15 +1,18 @@
 import React from 'react'
 import CandyList from './CandyList';
+import { Route, Link } from 'react-router-dom';
+import Landing from './Landing';
 
 const Root = () => {
   return (
     <div>
       <nav>
-        Goodie Bag
+      <Link to='/'>Goodie Bag</Link> -
+      <Link to='/candies'>Candies</Link>
       </nav>
       <main>
-        <h1>Welcome to the Goodie Bag!</h1>
-        <CandyList />
+        <Route exact path="/" component={Landing} />
+        <Route exact path="/candies" component={CandyList} />
       </main>
     </div>
   )
