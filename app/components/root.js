@@ -1,4 +1,5 @@
 import React from 'react'
+import CandyList from './CandyList';
 
 const Root = () => {
   return (
@@ -8,7 +9,7 @@ const Root = () => {
       </nav>
       <main>
         <h1>Welcome to the Goodie Bag!</h1>
-        <p>What a nice home page for your goodies!</p>
+        <CandyList />
       </main>
     </div>
   )
