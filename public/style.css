@@ -40,8 +40,15 @@ main {
   display: flex;
   flex-direction: column;
   align-content: center;
+  justify-content: space-between;
   background-color: peachpuff;
   text-align: center;
+  margin: 4rem;
+  flex: 1 0 15rem;
+}
+
+.candy-box img {
+  width: 100%;
 }
 
 #landing-text {
@@ -75,6 +82,11 @@ nav {
   justify-content: space-around;
 }
 
-a:visited {
+nav a:visited {
   color: papayawhip;
+}
+
+#all-candies {
+  display: flex;
+  flex-wrap: wrap;
 }

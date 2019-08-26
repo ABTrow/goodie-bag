@@ -7,8 +7,8 @@ const Root = () => {
   return (
     <div>
       <nav>
-      <Link to='/'>Goodie Bag</Link> -
-      <Link to='/candies'>Candies</Link>
+      <Link to="/">Goodie Bag</Link> -
+      <Link to="/candies">Candies</Link>
       </nav>
       <main>
         <Route exact path="/" component={Landing} />

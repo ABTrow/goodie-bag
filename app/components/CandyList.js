@@ -12,7 +12,7 @@ class CandyList extends React.Component {
   render () {
 
     return (
-      <div>
+      <div id="all-candies">
         {this.props.candies.map(candy => {
           return <SingleCandy key={candy.id} candy={candy} />
         })}
