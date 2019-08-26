@@ -2,6 +2,7 @@ import React from 'react'
 import CandyList from './CandyList';
 import { Route, Link } from 'react-router-dom';
 import Landing from './Landing';
+import SingleCandy from './SingleCandy';
 
 const Root = () => {
   return (
@@ -13,6 +14,7 @@ const Root = () => {
       <main>
         <Route exact path="/" component={Landing} />
         <Route exact path="/candies" component={CandyList} />
+        <Route path="/candies/:candyId" component={SingleCandy} />
       </main>
     </div>
   )
